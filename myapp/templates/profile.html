@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- <h1>{{ profile.full_name }}</h1> -->
+    <img src="{{ profile.photo.url }}" alt="Profile Photo">
+    <br>
+    <div class="container">
+        <header>
+            <h1>Amitesh Mishra</h1>
+            <p>mishraamitesh738@gmail.com | <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a> | <a href="https://github.com/your-profile">GitHub</a> | +91 6260954873</p>
+        </header>
+        <section>
+            <h2>Education</h2>
+            <p><strong>VIT Bhopal University</strong></p>
+            <p><strong>Bachelor of Technology | Computer Science and Engineering</strong></p>
+            <p>October 2022 - July 2026</p>
+            <p>CGPA 8.70</p>
+            <p><strong>DAV Public School Bacheli</strong></p>
+            <p><strong>Higher Secondary school</strong></p>
+            <p>January 2020 - December 2021</p>
+            <p>91.6%</p>
+        </section>
+        <section>
+            <h2>Work Experience</h2>
+            <p><strong>Data Entry Operator | Plypicker Pvt Ltd</strong></p>
+            <p>September 2022 - June 2023</p>
+            <ul>
+                <li>Structured and organized website data into comprehensive Excel spreadsheets, enabling the seamless sharing of critical information with the development team; facilitated a 25% faster response time in addressing site issues.</li>
+                <li>Ensured 99% data accuracy while managing large volumes of data.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <p><strong>Recon</strong> (June 2024 - June 2024)</p>
+            <ul>
+                <li>Engineered a comprehensive phishing simulation tool that enabled targeted domain testing and automated email retrieval via API, achieved a 40% reduction in time spent on manual phishing assessments across the cybersecurity team.</li>
+                <li>Developed a solution for the Hackathon HACKTIVATE’24 on Devfolio, securing 4th place out of 15 teams.</li>
+                <li>Technology: Redesigned UI with HTML/CSS, increasing engagement by 30% and reducing bounce rates. Built a Flask/PostgreSQL app, improving data retrieval speed by 50%</li>
+                <li>Team Project: 3 members.</li>
+            </ul>
+            <p><strong>Doc Schedular</strong> (June 2024 - June 2024)</p>
+            <ul>
+                <li>A web app where users can get appointment of the doctors nearby and can easy get their appointment without standing in long cues.</li>
+                <li>Developed for solve for India hackathon by geeks for geeks</li>
+                <li>Technology: HTML/CSS,flask,mongo db.</li>
+                <li>Team Project: 4 members.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p><strong>Core Skills:</strong> HTML/CSS, JavaScript, MERN Stack, C++, GIT, Unix.</p>
+            <p><strong>Familiar with:</strong> Python, Java, Machine Learning models</p>
+        </section>
+        <section>
+            <h2>Leadership & Achievements</h2>
+            <p><strong>Virtual Reality and Gaming Club Core Member</strong> (January 2024 - Present)</p>
+            <ul>
+                <li>Secured a technical team position as 1 of 8 selected from 100 applicants.</li>
+                <li>Spearheaded the club’s website development with the frontend team, improving navigation and boosting member engagement by 40% in three months.</li>
+            </ul>
+            <p><strong>Girl Script Summer of Code (GSSoC)</strong> (May 2024-Jul 2024)</p>
+            <ul>
+                <li>Enhanced open-source projects during GSSoC, reducing issues by 50% and boosting functionality. Fostered collaboration, attracting new contributors and increasing engagement by 40%.</li>
+            </ul>
+            <p><strong>Smart India Hackathon</strong> (August 2023-December 2023)</p>
+            <ul>
+                <li>Finalist in internal round, ranking top 50 out of 200 teams.</li>
+                <li>Teamed up with 5 members to develop a web application addressing challenges in the legal sector in India.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <p>English (Fluent), Hindi (Fluent), Japanese (learning)</p>
+        </section>
+    </div>
+</body>
+</html>
